@@ -13,7 +13,7 @@ bin/hadoop dfs -mkdir /kmeans/input/data
 bin/hadoop dfs -mkdir /kmeans/centroids
 bin/hadoop dfs -mkdir /kmeans/centroids/centroids.txt
 bin/hadoop dfs -mkdir /kmeans/output
-bin/hadoop jar /home/mamatha/IdeaProjects/kmeans/target/kmean-1.0-SNAPSHOT  com.mamatha.Cluster
+bin/hadoop jar /home/subbu/IdeaProjects/kmeans/target/kmean-1.0-SNAPSHOT  com.subbu.Cluster
 bin/hadoop dfs -cat output
 
 
